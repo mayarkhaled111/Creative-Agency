@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Agency</title>
+    <link rel="stylesheet" href="CSS/master.css">
+    <link rel="stylesheet" href="CSS/Normalize.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+</head>
+<body>
+    <!-- start setting box -->
+    <div class="settings-box">
+        <div class="toggle-settings"><i class="fa-solid fa-gear"></i></div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#009688"></li>
+                    <li data-color="#0092B8"></li>
+                    <li data-color="#c16c83"></li>
+                    <li data-color="#b77653"></li>
+                    <li data-color="#3b54cd"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random background</h4>
+                <div class="random-backgrounds">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <hr>
+            <div class="option-box">
+                <h4>Show-bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">Yes</span>
+                    <span class="no" data-display="hide">No</span>
+                </div>
+            </div>
+            <hr>
+            <button class="reset-option">Reset Option</button>
+        </div>
+    </div>
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullets" data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullets" data-section=".skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullets" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullets" data-section=".time-line">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullets" data-section=".feature">
+            <div class="tooltip">Our Feature</div>
+        </div>
+        <div class="bullets" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+        <div class="bullets" data-section=".contact">
+            <div class="tooltip">Contact Us</div>
+        </div>
+    </div>
+    <!-- start landing page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo"><span>S</span>pecial <span>D</span>esign</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".time-line">Timeline</a></li>
+                        <li><a href="#" data-section=".feature">Feature</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>We Are <span>Creative </span>Agency</h1>
+            <p>We are focus on helping companies to achieve business goals by developing a brand, deploying a bespoke marketing strategy and creative approach, and then providing other digital solutions like mobile apps, client portals, creative work, content creation, visual elements and website design.</p>
+        </div>
+    </div>
+    <!-- About us -->
+    <div class="container">
+        <div class="about-us" id="about">
+            <div class="info-box">
+                <h5>About Us</h5>
+                <h2>helping businesses succeed through the power of video</h2>
+                <p>Video is the future of the business in the digital-focused world.our company uses video to change the way companies connect and communicate. we help other companies of all sizes humanize their communications and personalize their customer experiences</p>
+            </div>
+            <div class="image-box">
+                <img src="Images/about-us.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- skills section -->
+    <div class="skills">
+        <div class="container">
+            <h2>Our skills</h2>
+            <div class="skills-box">
+                <div class="skill-name">Creativity</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Graphic Design</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Project Management</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Problem-Solving</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Video Production</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Animation</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery section -->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="Images/01.jpeg" alt="Image One">
+                <img src="Images/02.jpeg" alt="Image Two">
+                <img src="Images/03.jpeg" alt="Image Three">
+                <img src="Images/04.jpeg" alt="Image Four">
+                <img src="Images/05.jpeg" alt="Image Five">
+                <img src="Images/06.jpeg" alt="Image Six">
+                <img src="Images/07.jpeg" alt="Image Seven">
+                <img src="Images/08.jpeg" alt="">
+                <img src="Images/09.jpeg" alt="">
+                <img src="Images/04.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- timeline section -->
+    <div class="time-line">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2021</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempore quae hic inventore alias ducimus facilis provident amet voluptates sequi?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempore quae hic inventore alias ducimus facilis provident amet voluptates sequi?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempore quae hic inventore alias ducimus facilis provident amet voluptates sequi?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempore quae hic inventore alias ducimus facilis provident amet voluptates sequi?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2023</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempore quae hic inventore alias ducimus facilis provident amet voluptates sequi?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempore quae hic inventore alias ducimus facilis provident amet voluptates sequi?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- feature section -->
+    <div class="feature">
+        <h2>Our Feature</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="Images/Icon_01.png" alt="">
+                <h4>Creative services</h4>
+                <p>Creative services involve the production of advertising materials such as visuals, text and videos for a range of platforms.</p>
+            </div>
+            <div class="feat-box">
+                <img src="Images/Icon_02.png" alt="">
+                <h4>Media planning</h4>
+                <p>involve determining appropriate marketing channels through which advertisers can disseminate marketing materials. </p>
+            </div>
+            <div class="feat-box">
+                <img src="Images/Icon_03.png" alt="">
+                <h4>Client services</h4>
+                <p>Client services primarily include liaising between the client side and creative contributors of an advertising campaign. </p>
+            </div>
+            <div class="feat-box">
+                <img src="Images/Icon_04.png" alt="">
+                <h4>Account planning</h4>
+                <p>Account planning involves creating an accurate estimate of a client's requirements and preferences. </p>
+            </div>
+            <div class="feat-box">
+                <img src="Images/Icon_05.png" alt="">
+                <h4>advertising plans</h4>
+                <p>This plan is a systematic, step-by-step breakdown of all the activities that contribute to the development of the final campaign. </p>
+            </div>
+            <div class="feat-box">
+                <img src="Images/Icon_06.png" alt="">
+                <h4>Researching</h4>
+                <p>Agencies may have dedicated teams who address research workflows before contributors start developing advertising materials for a client.</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!-- Testimonials Section -->
+    <div class="testimonials">
+        <div class="container">
+            <h3>Testimonials</h3>
+            <div class="ts-box">
+                <p>Iam happy with the product its amazing and i recieve it very fast and the price was amazing
+                </p>
+                <div class="person-info">
+                    <img src="Images/person2.jpeg" alt="">
+                    <h4>Ahmed Mosaad</h4>
+                    <p>CEO At company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>Iam happy with the product its amazing and i recieve it very fast and the price was amazing
+                </p>
+                <div class="person-info">
+                    <img src="Images/person1.avif" alt="">
+                    <h4>Lara Saad</h4>
+                    <p>CEO At company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>Iam happy with the product its amazing and i recieve it very fast and the price was amazing
+                </p>
+                <div class="person-info">
+                    <img src="Images/person3.avif" alt="">
+                    <h4>Mohamed Ali</h4>
+                    <p>CEO At company</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact us section -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="Phone">
+                    <input type="text" placeholder="Your Email" name="Email">
+                    <input type="text" placeholder="Subject" name="Subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+   <script src="JS/master.js"></script>
+</body>
+</html>
